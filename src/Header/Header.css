@@ -1,0 +1,81 @@
+ .header-body{
+    height: 100vh;
+    /* background-color: rgba(9, 9, 9, 0.841); */
+ }
+ .menu-items ul li a{
+    color: darkgrey;
+    font: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .menu-items ul hr{
+    color: rgb(86, 108, 108);
+ }
+ .menu-items ul li a:hover{
+    color: rgb(150, 246, 72);
+ }
+ ul li{
+     font-size: 1rem;
+    list-style: none;
+    margin-top: 20px;
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+.my-image{
+    height: 200px;
+    width: 200px;
+    
+}
+.my-dp-image{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.image-text{
+background-color: rgba(169, 188, 238, 0.82);
+position: absolute;
+bottom:0;
+width: 100%;
+text-align: center;
+color: rgb(246, 249, 251);
+}
+.menu-icon{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .main-menu button:hover{
+    background-color: rgb(170, 225, 225);
+  }
+
+.menu-icon:focus{
+    outline:white;
+}
+.hamburger-icon{
+  
+  margin-left: 30px;
+
+ }
+.nav-ul3{
+    display: block;
+}
+
+.click-show{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+@media screen and(max-width:700px){
+ .nav-bar-small{
+     color: tomato;
+ } 
+ .hamburger-icon:hover{
+    color: darkred;
+  }
+  
+}

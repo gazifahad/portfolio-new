@@ -1,0 +1,33 @@
+.body-background{
+    position: relative;
+}
+.body-text{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    text-align:center;
+}
+.body-text span{
+    color: cadetblue;
+}
+.project-short{
+    text-align: start;
+}
+.project-short button{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.project-short a{
+    text-decoration: none;
+    color: rgb(90, 63, 94);
+}
+.project-short button:hover{
+    background-color: rgb(205, 237, 237);
+}
+@media only screen and (max-width: 600px) {
+   .body-text{
+      left: 0;
+      margin-left: 20px;
+   }
+  }
+

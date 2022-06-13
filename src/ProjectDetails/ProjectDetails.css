@@ -1,0 +1,21 @@
+.projectDetails-body{
+ color: rgb(235, 216, 191);
+ width:80%;
+ text-align: center;
+ margin: auto;
+}
+.bullets{
+padding-left:50px;
+padding-right:50px;
+
+}
+.images{
+    height: 200px;
+}
+.bullets a{
+    text-decoration: none;
+    color: aliceblue;
+}
+@media screen and(max-width:700px){
+
+}
