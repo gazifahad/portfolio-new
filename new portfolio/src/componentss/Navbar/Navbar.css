@@ -1,0 +1,33 @@
+.navigation {
+  background-color: #212428;
+  color: #c5d0de;
+  width: 100%;
+}
+
+.active {
+  background-color: #212428cb;
+  backdrop-filter: blur(5px);
+  position: sticky;
+  top: 0px;
+  transition: top 0.5s ease-in;
+}
+
+.avatar {
+  gap: 10px;
+  font-weight: 600;
+  color: #d9e1eb;
+  text-transform: uppercase;
+}
+
+.bottom-navigation {
+  background: linear-gradient(-45deg, #212428, #212428);
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+}
+.bottom-navigation a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.bottom-navigation a:hover {
+  color: #0097e6;
+}

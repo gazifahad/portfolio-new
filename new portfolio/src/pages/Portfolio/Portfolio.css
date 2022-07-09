@@ -1,0 +1,88 @@
+.portfolio-card {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 20px;
+  background: linear-gradient(-45deg, #212428, #212428);
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+}
+.portfolio-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-card:hover::after {
+  opacity: 1;
+}
+.portfolio-card:hover {
+  color: #0097e6;
+}
+
+.image-content {
+  width: 100%;
+  margin: auto;
+  cursor: n-resize;
+}
+.image-content img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 270px;
+  transition: 5s all ease;
+}
+.portfolio-card:hover .image-content img {
+  object-position: bottom;
+}
+
+.project-title {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.title-icon {
+  transform: scale(0);
+  transform-origin: bottom;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-card:hover .title-icon {
+  transform: scale(1);
+}
+
+.button-content {
+  background: #212428;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #101113, -2px -2px 10px #32373d;
+}
+.project-button {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(-45deg, #21242800, #21242800);
+  transition: color 0.3s ease;
+}
+.project-button:hover {
+  box-shadow: 2px 2px 2px #101113, -2px -2px 2px #32373d;
+  /* color: #0097e6; */
+}

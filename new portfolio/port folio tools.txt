@@ -1,0 +1,8 @@
+daizy ui
+react-components
+tailwind
+react-modal
+react-typed
+aos
+
+react-router-hashlink
