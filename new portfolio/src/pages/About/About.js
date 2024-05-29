@@ -37,8 +37,8 @@ const About = () => {
                 Contact Information
               </h2>
               <div>
-                Email: gazifahad3@gmail.com <br /> Phone: +8801764037295{" "}
-                <br /> Address: uttara, Dhaka, Bangladesh
+                Email: gazifahad3@gmail.com <br /> Phone: +4917621682798{" "}
+                <br /> Address: Ben-gurion-ring 50, 60437 ,Frankfurt am Main,Germany
               </div>
             </div>
             <div className="text-accent flex flex-col lg:flex-row gap-10 lg:gap-10 justify-between pr-0 lg:pr-36 mt-3">

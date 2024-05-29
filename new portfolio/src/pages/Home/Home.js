@@ -55,7 +55,7 @@ const Home = () => {
             <div data-aos="zoom-in" data-aos-duration="1000">
               <a
                 className="anchor-button py-[0.85rem] px-4 lg:px-12"
-                href="https://drive.google.com/file/d/1eN9JkgfXzXSBVwJZCZK8HPKsG_sZkVIF/view?usp=sharing"
+                href="https://drive.google.com/file/d/1AIyhTMyLMemDPwFNsayr3cGPTiFfouAZ/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
               >

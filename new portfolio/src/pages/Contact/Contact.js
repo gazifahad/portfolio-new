@@ -18,10 +18,10 @@ const Contact = () => {
     setIsLoading(true);
     (async () => {
       const { data } = await axios.post(
-        "https://ekramul-hasan.herokuapp.com/email",
+        "https://saiful.herokuapp.com/email",
         message
-      );
-      if (data) {
+      ).then(alert('I Have Got Your Mail, I will get back to you soon. thanks'))
+      if ( data) {
         setIsLoading(false);
         swal(
           "Successful",
@@ -64,7 +64,7 @@ const Contact = () => {
             I am fully available for remote or spot job. Connect with me via call or email.
             <br />
             <br />
-            Phone : <span className="text-accent ml-2">+8801764037295</span>
+            Phone : <span className="text-accent ml-2">+4917621682798</span>
             <br />
             Email :
             <span className="text-accent ml-2">

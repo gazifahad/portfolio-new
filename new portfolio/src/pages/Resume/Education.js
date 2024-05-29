@@ -11,9 +11,9 @@ const Education = () => {
     },
     {
       id: 2,
-      degree: "Science",
-      institute: "TMKM",
-      year: "2013 - 2015",
+      degree: "Master in Applied Computer Science",
+      institute: "Schmalkalden University Of Applied Sciences",
+      year: "2022 - current",
     },
   ];
   return (
