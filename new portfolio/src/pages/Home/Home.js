@@ -24,7 +24,7 @@ const Home = () => {
             >
               Hi, I'm <span className="text-secondary">Saiful Islam</span>
               <br />
-              <span>
+              <span className="text-2xl lg:text-4xl">
                 <Typed
                   strings={[
                     "A Mern Developer",
